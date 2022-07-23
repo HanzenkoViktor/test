@@ -1,0 +1,57 @@
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+ul,
+p,
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.ul {
+  display: flex;
+  width: 1340px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid green;
+}
+
+.ul .div {
+  display: flex;
+  flex-direction: column;
+}
+
+.li-grow {
+  width: 426px;
+  flex-grow: 1;
+}
+
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid blue;
+  gap: 30px;
+}
+
+.div2 .lis {
+  width: px;
+  flex-basis: calc(100% / 2 - 30px);
+  outline: 1px solid red;
+}
+
+.div2 .li4 {
+  margin-left: 30px;
+  flex-grow: 1;
+}
